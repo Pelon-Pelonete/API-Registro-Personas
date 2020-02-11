@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\Personas.CommandStack.csproj",
-      "projectName": "Personas.CommandStack",
-      "projectPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\Personas.CommandStack.csproj",
+      "projectUniqueName": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\SharedElements\\SharedElements.csproj",
+      "projectName": "SharedElements",
+      "projectPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\SharedElements\\SharedElements.csproj",
       "packagesPath": "C:\\Users\\ardiazg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\obj\\",
+      "outputPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\SharedElements\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personas", "Personas\Personas.csproj", "{2533E35C-D2A8-40C1-BF37-825631EF7422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personas.CommandStack", "Personas\Personas.CommandStack.csproj", "{2533E35C-D2A8-40C1-BF37-825631EF7422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedElements", "SharedElements\SharedElements.csproj", "{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2533E35C-D2A8-40C1-BF37-825631EF7422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2533E35C-D2A8-40C1-BF37-825631EF7422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2533E35C-D2A8-40C1-BF37-825631EF7422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
