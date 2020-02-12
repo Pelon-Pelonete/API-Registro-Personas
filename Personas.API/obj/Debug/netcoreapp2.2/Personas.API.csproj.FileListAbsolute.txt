@@ -11,3 +11,4 @@ C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.RazorTargetAssemblyInfo.cache
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.dll
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.pdb
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.csprojAssemblyReference.cache

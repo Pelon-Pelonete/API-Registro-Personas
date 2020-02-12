@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="MementoFX.Messaging.Rebus" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Rebus.RabbitMq" Version="5.2.0" />
+    <PackageReference Include="Rebus.ServiceProvider" Version="4.0.2" />
   </ItemGroup>
 
 </Project>

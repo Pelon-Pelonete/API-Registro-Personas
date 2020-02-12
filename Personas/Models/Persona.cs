@@ -31,16 +31,18 @@ namespace Personas.CommandStack.Models
             return correosPersona ?? (correosPersona = new List<CorreoPersona>());
         }
 
+        public Persona(){}
+
         public IReadOnlyCollection<DatosDomiciliosPersona> DomiciliosPersona => GetDatosDomiciliosPersonas();
         public IReadOnlyCollection<TelefonoPersona> TelefonosPersona => GetTelefonoPersonas();
         public IReadOnlyCollection<CorreoPersona> CorreosPersona => GetCorreoPersonas();
 
-        public Persona(Guid personaId,DatosGeneralesPersona generalidadesPersona,DatosFamiliaresPersona familiaresPersona, List<DatosDomiciliosPersona> domicilioPersona,List<TelefonoPersona> telefonosPersona,List<CorreoPersona> correosPersona)
+        /*public Persona(Guid personaId,DatosGeneralesPersona generalidadesPersona,DatosFamiliaresPersona familiaresPersona, List<DatosDomiciliosPersona> domicilioPersona,List<TelefonoPersona> telefonosPersona,List<CorreoPersona> correosPersona)
         {
             this.personaId = personaId;
             GeneralidadesPersona = generalidadesPersona;
             FamiliaresPersona = familiaresPersona;
-        }
+        }*/
 
         public class Factory {
 
