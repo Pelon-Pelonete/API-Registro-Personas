@@ -9,7 +9,12 @@ namespace SharedElements
         public bool Correcto { get; set; }
         public string Mensaje { get; set; }
     }
-
+    public class Resultado<T> : IResultado<T>
+    {
+        public bool Correcto { get; set; }
+        public string Mensaje { get; set; }
+        public T Entidad { get; set; }
+    }
     public static class ResultadoFactory
     {
         public static Resultado Error(string mensaje)

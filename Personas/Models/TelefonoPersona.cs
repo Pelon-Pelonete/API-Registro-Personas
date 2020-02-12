@@ -16,10 +16,10 @@ namespace Personas.CommandStack.Models
         public Guid PersonaId { get => personaId; set => personaId = value; }
         public Guid TelefonoId { get => telefonoId; set => telefonoId = value; }
 
-        public TelefonoPersona(Guid personaId,Guid telefonoId,int tipoTelefono, string telefono)
+        public TelefonoPersona(Guid personaId,int tipoTelefono, string telefono)
         {
             PersonaId = personaId;
-            TelefonoId = telefonoId;
+            TelefonoId = Guid.NewGuid();
             this.TipoTelefono = tipoTelefono;
             this.Telefono = telefono;
         }

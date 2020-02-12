@@ -1,0 +1,9 @@
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\bin\Debug\netcoreapp2.2\SharedElements.deps.json
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\bin\Debug\netcoreapp2.2\SharedElements.dll
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\bin\Debug\netcoreapp2.2\SharedElements.pdb
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\obj\Debug\netcoreapp2.2\SharedElements.csprojAssemblyReference.cache
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\obj\Debug\netcoreapp2.2\SharedElements.csproj.CoreCompileInputs.cache
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\obj\Debug\netcoreapp2.2\SharedElements.AssemblyInfoInputs.cache
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\obj\Debug\netcoreapp2.2\SharedElements.AssemblyInfo.cs
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\obj\Debug\netcoreapp2.2\SharedElements.dll
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\SharedElements\obj\Debug\netcoreapp2.2\SharedElements.pdb

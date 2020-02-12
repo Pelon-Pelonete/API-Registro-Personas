@@ -16,10 +16,10 @@ namespace Personas.CommandStack.Models
 
         public CorreoPersona(){}
 
-        public CorreoPersona(Guid personaId, Guid correoId,string correo)
+        public CorreoPersona(Guid personaId, string correo)
         {
             PersonaId = personaId;
-            CorreoId = correoId;
+            CorreoId = Guid.NewGuid();
             Correo = correo;
         }
     }

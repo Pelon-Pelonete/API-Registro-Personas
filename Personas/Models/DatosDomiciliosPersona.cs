@@ -26,10 +26,10 @@ namespace Personas.CommandStack.Models
 
         public DatosDomiciliosPersona(){}
 
-        public DatosDomiciliosPersona(Guid personaId,Guid domicilioId,int departamento,int municipio,int ciudad,int barrioColoniaResidencia,string direccion,bool aquiRecibeCitacion)
+        public DatosDomiciliosPersona(Guid personaId,int departamento,int municipio,int ciudad,int barrioColoniaResidencia,string direccion,bool aquiRecibeCitacion)
         {
             PersonaId = personaId;
-            DomicilioId = domicilioId;
+            DomicilioId = Guid.NewGuid();
             Departamento = departamento;
             Municipio = municipio;
             Ciudad = ciudad;

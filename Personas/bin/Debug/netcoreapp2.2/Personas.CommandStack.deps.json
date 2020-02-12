@@ -1,14 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "abfbf981420181c06ab2092bb592ba7cac53cd72"
+    "signature": "2fd72611b4876435cc4a081babdafba1bdee7cec"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Personas.CommandStack/1.0.0": {
         "dependencies": {
-          "MediatR": "8.0.0"
+          "MediatR": "8.0.0",
+          "MementoFX": "2.0.0",
+          "SharedElements": "1.0.0"
         },
         "runtime": {
           "Personas.CommandStack.dll": {}
@@ -20,6 +22,23 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.0.0"
           }
+        }
+      },
+      "MementoFX/2.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MementoFX.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {},
+      "SharedElements/1.0.0": {
+        "runtime": {
+          "SharedElements.dll": {}
         }
       }
     }
@@ -36,6 +55,25 @@
       "sha512": "sha512-cYSDJ2b/dIiwTLW/ZW/SQcXq9I3WF6KR4D0KN4hxWR08tZqcvcVS1bQXZbsANdQdTQfxx+ZFp5WkHLMyeoR5Zw==",
       "path": "mediatr/8.0.0",
       "hashPath": "mediatr.8.0.0.nupkg.sha512"
+    },
+    "MementoFX/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6/xPr6ekIpmo5BiubgHHFDy9wuMJKQRa8NS3yfF3F2+1oqnkNfLoL9oA6pKepIIRH+qBIa6Q1L0Jg5xpizU65g==",
+      "path": "mementofx/2.0.0",
+      "hashPath": "mementofx.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "path": "microsoft.csharp/4.4.0",
+      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+    },
+    "SharedElements/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

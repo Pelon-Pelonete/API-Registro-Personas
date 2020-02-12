@@ -6,17 +6,19 @@ namespace Personas.API.Models
 {
     public class PersonaInput
     {
-        private Guid personaId;
         private DatosGeneralesPersonaInput generalidadesPersona;
         private DatosFamiliaresPersonaInput familiaresPersona;
-        private List<DatosDomiciliosPersonaInput> domicilioPersona;
+        private List<DatosDomiciliosPersonaInput> domiciliosPersona;
         private List<TelefonoPersonaInput> telefonosPersona;
         private List<CorreoPersonaInput> correosPersona;
 
         public DatosGeneralesPersonaInput GeneralidadesPersona { get => generalidadesPersona; set => generalidadesPersona = value; }
         public DatosFamiliaresPersonaInput FamiliaresPersona { get => familiaresPersona; set => familiaresPersona = value; }
+        public List<DatosDomiciliosPersonaInput> DomiciliosPersona { get => domiciliosPersona; set => domiciliosPersona = value; }
+        public List<TelefonoPersonaInput> TelefonosPersona { get => telefonosPersona; set => telefonosPersona = value; }
+        public List<CorreoPersonaInput> CorreosPersona { get => correosPersona; set => correosPersona = value; }
 
-        private List<DatosDomiciliosPersonaInput> GetDatosDomiciliosPersonas()
+        /*private List<DatosDomiciliosPersonaInput> GetDatosDomiciliosPersonas()
         {
             return domicilioPersona ?? (domicilioPersona = new List<DatosDomiciliosPersonaInput>());
         }
@@ -35,17 +37,6 @@ namespace Personas.API.Models
 
         public IReadOnlyCollection<DatosDomiciliosPersonaInput> DomiciliosPersona => GetDatosDomiciliosPersonas();
         public IReadOnlyCollection<TelefonoPersonaInput> TelefonosPersona => GetTelefonoPersonas();
-        public IReadOnlyCollection<CorreoPersonaInput> CorreosPersona => GetCorreoPersonas();
-
-        /*public Persona(Guid personaId,DatosGeneralesPersona generalidadesPersona,DatosFamiliaresPersona familiaresPersona, List<DatosDomiciliosPersona> domicilioPersona,List<TelefonoPersona> telefonosPersona,List<CorreoPersona> correosPersona)
-        {
-            this.personaId = personaId;
-            GeneralidadesPersona = generalidadesPersona;
-            FamiliaresPersona = familiaresPersona;
-        }*/
-
-        public class Factory {
-
-        }
+        public IReadOnlyCollection<CorreoPersonaInput> CorreosPersona => GetCorreoPersonas();*/
     }
 }

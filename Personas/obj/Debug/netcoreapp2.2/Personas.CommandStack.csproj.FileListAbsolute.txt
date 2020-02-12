@@ -1,6 +1,12 @@
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\bin\Debug\netcoreapp2.2\Personas.CommandStack.deps.json
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\bin\Debug\netcoreapp2.2\Personas.CommandStack.dll
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\bin\Debug\netcoreapp2.2\Personas.CommandStack.pdb
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\bin\Debug\netcoreapp2.2\SharedElements.dll
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\bin\Debug\netcoreapp2.2\SharedElements.pdb
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.csprojAssemblyReference.cache
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.csproj.CoreCompileInputs.cache
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.AssemblyInfoInputs.cache
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.AssemblyInfo.cs
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.csproj.CopyComplete
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.dll
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas\obj\Debug\netcoreapp2.2\Personas.CommandStack.pdb

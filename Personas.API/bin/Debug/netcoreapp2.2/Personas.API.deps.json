@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "840fd31a0edd92d890e6e8f6bf317e67e2896b1d"
+    "signature": "dd11c56d652055eb29b3ef351bbb1baa86bace30"
   },
   "compilationOptions": {
     "defines": [
@@ -29,7 +29,9 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Rebus.RabbitMq": "5.2.0"
+          "Personas.CommandStack": "1.0.0",
+          "Rebus.RabbitMq": "5.2.0",
+          "Rebus.ServiceProvider": "4.0.2"
         },
         "runtime": {
           "Personas.API.dll": {}
@@ -163,6 +165,22 @@
           "lib/netstandard2.0/Rebus.RabbitMq.dll": {}
         }
       },
+      "Rebus.ServiceProvider/4.0.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Rebus": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rebus.ServiceProvider.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Rebus.ServiceProvider.dll": {}
+        }
+      },
       "runtime.native.System.Net.Security/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.0",
@@ -260,6 +278,27 @@
           "Microsoft.NETCore.Platforms": "2.2.0",
           "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "Personas.CommandStack/1.0.0": {
+        "dependencies": {
+          "MediatR": "8.0.0",
+          "MementoFX": "2.0.0",
+          "SharedElements": "1.0.0"
+        },
+        "runtime": {
+          "Personas.CommandStack.dll": {}
+        },
+        "compile": {
+          "Personas.CommandStack.dll": {}
+        }
+      },
+      "SharedElements/1.0.0": {
+        "runtime": {
+          "SharedElements.dll": {}
+        },
+        "compile": {
+          "SharedElements.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3520,6 +3559,13 @@
       "path": "rebus.rabbitmq/5.2.0",
       "hashPath": "rebus.rabbitmq.5.2.0.nupkg.sha512"
     },
+    "Rebus.ServiceProvider/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O0HFlkeondwuMmr4/ho+NkH/naSUT1xLtY2TvjQnhX/Rb8wD/at2TNESjc9owlpO1bgdJRo954RRkZLO44rllA==",
+      "path": "rebus.serviceprovider/4.0.2",
+      "hashPath": "rebus.serviceprovider.4.0.2.nupkg.sha512"
+    },
     "runtime.native.System.Net.Security/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3561,6 +3607,16 @@
       "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
+    },
+    "Personas.CommandStack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharedElements/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
