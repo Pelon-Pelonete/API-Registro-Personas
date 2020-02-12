@@ -10,6 +10,8 @@ namespace Personas.CommandStack.Models
         private string identificacion;
         private string nombreCompleto;
         private DateTime fechaNacimiento;
+        private int departamento;
+        private int municipio;
         private int sexo = -1;
         private int estadoCivil = -1;
         private int profesionOficio = -1;
@@ -88,6 +90,44 @@ namespace Personas.CommandStack.Models
                 if (value > 0)
                 { estructuraCriminal = value; }
             }
+        }
+
+        public int Departamento
+        {
+            get => departamento; 
+            set
+            {
+                if (value > 0)
+                { departamento = value; }
+            }
+        }
+        public int Municipio
+        {
+            get => municipio; 
+            set
+            {
+                if (value > 0)
+                { municipio = value; }
+            }
+        }
+
+       public DatosGeneralesPersona(){}
+
+       public DatosGeneralesPersona(Int32 tipoIdentificacion, string identificacion,string nombreCompleto,DateTime fechaNacimiento,int departamento,int municipio,int sexo,int estadoCivil,int profesionOficio,int grupoVulnerable,int grupoEtnico,int nacionalidad,int estructuraCriminal)
+        {
+            TipoIdentificacion = tipoIdentificacion;
+            Identificacion = identificacion;
+            NombreCompleto = nombreCompleto;
+            FechaNacimiento = fechaNacimiento;
+            Departamento = departamento;
+            Municipio = municipio;
+            Sexo = sexo;
+            EstadoCivil = estadoCivil;
+            ProfesionOficio = profesionOficio;
+            GrupoVulnerable = grupoVulnerable;
+            GrupoEtnico = grupoEtnico;
+            Nacionalidad = nacionalidad;
+            EstructuraCriminal = estructuraCriminal;
         }
     }
 }
