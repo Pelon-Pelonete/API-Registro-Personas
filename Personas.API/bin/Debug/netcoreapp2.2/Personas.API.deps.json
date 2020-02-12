@@ -26,6 +26,7 @@
         "dependencies": {
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "MementoFX.Messaging.Rebus": "2.0.0",
+          "MementoFX.Persistence.SqlServer": "2.0.0-pre1",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -278,6 +279,19 @@
           "Microsoft.NETCore.Platforms": "2.2.0",
           "Microsoft.NETCore.Targets": "2.0.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "MementoFX.Persistence.SqlServer/2.0.0-pre1": {
+        "dependencies": {
+          "MementoFX": "2.0.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Data.SqlClient": "4.6.0"
+        },
+        "runtime": {
+          "MementoFX.Persistence.SqlServer.dll": {}
+        },
+        "compile": {
+          "MementoFX.Persistence.SqlServer.dll": {}
         }
       },
       "Personas.CommandStack/1.0.0": {
@@ -3607,6 +3621,11 @@
       "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
+    },
+    "MementoFX.Persistence.SqlServer/2.0.0-pre1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Personas.CommandStack/1.0.0": {
       "type": "project",

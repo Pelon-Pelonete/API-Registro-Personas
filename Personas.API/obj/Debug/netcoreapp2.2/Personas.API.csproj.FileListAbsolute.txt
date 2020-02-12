@@ -17,3 +17,5 @@ C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.csproj.CopyComplete
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.dll
 C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\obj\Debug\netcoreapp2.2\Personas.API.pdb
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\bin\Debug\netcoreapp2.2\MementoFX.Persistence.SqlServer.dll
+C:\Users\ardiazg\Desktop\Ricardo\SEJE\SEJE-DEV\API-Registro-Personas-AR\Personas.API\bin\Debug\netcoreapp2.2\MementoFX.Persistence.SqlServer.pdb

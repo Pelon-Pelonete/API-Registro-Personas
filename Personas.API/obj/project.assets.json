@@ -4697,6 +4697,21 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "MementoFX.Persistence.SqlServer/2.0.0-pre1": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MementoFX": "2.0.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Data.SqlClient": "4.6.0"
+        },
+        "compile": {
+          "bin/placeholder/MementoFX.Persistence.SqlServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MementoFX.Persistence.SqlServer.dll": {}
+        }
+      },
       "Personas.CommandStack/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -12732,6 +12747,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "MementoFX.Persistence.SqlServer/2.0.0-pre1": {
+      "type": "project",
+      "path": "../MementoFX.Persistence.SqlServer/MementoFX.Persistence.SqlServer.csproj",
+      "msbuildProject": "../MementoFX.Persistence.SqlServer/MementoFX.Persistence.SqlServer.csproj"
+    },
     "Personas.CommandStack/1.0.0": {
       "type": "project",
       "path": "../Personas/Personas.CommandStack.csproj",
@@ -12747,6 +12767,7 @@
     ".NETCoreApp,Version=v2.2": [
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.0",
       "MementoFX.Messaging.Rebus >= 2.0.0",
+      "MementoFX.Persistence.SqlServer >= 2.0.0-pre1",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12785,6 +12806,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\MementoFX.Persistence.SqlServer\\MementoFX.Persistence.SqlServer.csproj": {
+              "projectPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\MementoFX.Persistence.SqlServer\\MementoFX.Persistence.SqlServer.csproj"
+            },
             "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\Personas.CommandStack.csproj": {
               "projectPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\Personas.CommandStack.csproj"
             }

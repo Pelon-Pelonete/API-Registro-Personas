@@ -13,19 +13,19 @@ namespace Personas.CommandStack.Sagas
 {
     public class PersonaSaga : IRequestHandler<RegistrarPersonaCommand, Resultado>
     {
-        /*private readonly IRepository repository;
+        private readonly IRepository repository;
         private readonly IEventStore eventStore;
 
         public PersonaSaga(IRepository repository, IEventStore eventStore)
         {
             this.repository = repository;
             this.eventStore = eventStore;
-        }*/
-        public Task<Resultado> Handle(RegistrarPersonaCommand request, CancellationToken cancellationToken)
+        }
+        public async Task<Resultado> Handle(RegistrarPersonaCommand request, CancellationToken cancellationToken)
         {
-            //var persona = Persona.Factory.RegistrarPersona(request.PersonaId,request.GeneralidadesPersona, request.FamiliaresPersona,request.DomicilioPersona,request.TelefonosPersona,request.CorreosPersona);
-
-            return Task.FromResult(ResultadoFactory.Correcto());
+            var persona = Persona.Factory.RegistrarPersona(request.PersonaId,request.GeneralidadesPersona, request.FamiliaresPersona,request.DomicilioPersona,request.TelefonosPersona,request.CorreosPersona);
+            await repository.SaveAsync(persona);
+            return ResultadoFactory.Correcto();
         }
     }
 }
