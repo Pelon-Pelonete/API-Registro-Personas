@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personas.CommandStack", "Personas\Personas.CommandStack.csproj", "{2533E35C-D2A8-40C1-BF37-825631EF7422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedElements", "SharedElements\SharedElements.csproj", "{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedElements", "SharedElements\SharedElements.csproj", "{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personas.API", "Personas.API\Personas.API.csproj", "{9B021C79-8739-4656-9935-A99308BE97DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB319DD-95AB-4DAF-B2B1-F8CF3FD11725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B021C79-8739-4656-9935-A99308BE97DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B021C79-8739-4656-9935-A99308BE97DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B021C79-8739-4656-9935-A99308BE97DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B021C79-8739-4656-9935-A99308BE97DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
