@@ -14,14 +14,16 @@ namespace Personas.API.Controllers
     public class PersonasController : ControllerBase
     {
         private readonly IMediator mediator;
+        //private readonly IServiceProvider serviceProvider;
 
-        public PersonasController(IMediator mediator)
+        public PersonasController(IMediator mediator)//, IServiceProvider serviceProvider)
         {
             this.mediator = mediator;
+            //this.serviceProvider = serviceProvider;
         }
 
         [HttpPost]
-        public IActionResult guardarNuevaPersona(PersonaInput persona)
+        public async Task<IActionResult> guardarNuevaPersona(PersonaInput persona)
         {
             if (ModelState.IsValid)
             {
@@ -69,7 +71,10 @@ namespace Personas.API.Controllers
 
                 var nuevaPersona = new CommandStack.Commands.RegistrarPersonaCommand(idPersona,generalidadesPersona,familiaresPersona,domiciliosPersona,telefonosPersona,correosPersona);
 
-                mediator.Send(nuevaPersona);
+                var result=await mediator.Send(nuevaPersona);
+                //var saga=(Personas.CommandStack.Sagas.PersonaSaga)serviceProvider.GetService(typeof(Personas.CommandStack.Sagas.PersonaSaga));
+                //await saga.Handle(nuevaPersona, new System.Threading.CancellationToken());
+
                 return Ok();
             }
             return BadRequest(ModelState);

@@ -34,16 +34,23 @@ namespace Personas.CommandStack.Models
             return correosPersona ?? (correosPersona = new List<CorreoPersona>());
         }
 
-        public void ApplyEvent(PersonaRegistradaEvent @event)
-        {
-            
-        }
-
         public IReadOnlyCollection<DatosDomiciliosPersona> DomiciliosPersona => GetDatosDomiciliosPersonas();
         public IReadOnlyCollection<TelefonoPersona> TelefonosPersona => GetTelefonoPersonas();
         public IReadOnlyCollection<CorreoPersona> CorreosPersona => GetCorreoPersonas();
 
+        public Guid PersonaId { get => personaId; set => personaId = value; }
+
         public Persona() { }
+
+        public void ApplyEvent(PersonaRegistradaEvent @event)
+        {
+            PersonaId = @event.PersonaId;
+            GeneralidadesPersona = @event.GeneralidadesPersona;
+            FamiliaresPersona = @event.FamiliaresPersona;
+            GetDatosDomiciliosPersonas().AddRange(@event.DomicilioPersona);
+            GetTelefonoPersonas().AddRange(@event.TelefonosPersona);
+            GetCorreoPersonas().AddRange(@event.CorreosPersona);
+        }
 
         /*public Persona(Guid personaId,DatosGeneralesPersona generalidadesPersona,DatosFamiliaresPersona familiaresPersona, List<DatosDomiciliosPersona> domicilioPersona,List<TelefonoPersona> telefonosPersona,List<CorreoPersona> correosPersona)
         {

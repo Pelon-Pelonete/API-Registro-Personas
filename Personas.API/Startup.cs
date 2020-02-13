@@ -20,6 +20,7 @@ using Rebus.Config;
 using Rebus.Serialization.Json;
 using MementoFX.Messaging;
 using MementoFX.Messaging.Rebus;
+using MementoFX;
 
 namespace Personas.API
 {
@@ -36,13 +37,14 @@ namespace Personas.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddMediatR(typeof(Personas.CommandStack.Commands.RegistrarPersonaCommand));
+            services.AddMediatR(typeof(Personas.CommandStack.Sagas.PersonaSaga));
             var connectionString = Configuration.GetConnectionString("EventStore");
             Settings settings = new Settings(connectionString, useSingleTable: true);
             services.AddSingleton(settings);
             services.AddTransient<IEventStore, MementoFX.Persistence.SqlServer.SqlServerEventStore>();
             services.AddTransient<IRepository, MementoFX.Persistence.Repository>();
             var queueName = Configuration["Rebus:QueueName"];
+            //services.AddSingleton<MementoFX.Messaging.IEventDispatcher, LocalBus>();
             services.AddRebus(config => config.Logging(l => l.Console(Rebus.Logging.LogLevel.Debug))// l.Trace())
                 .Routing(r => r.TypeBased()
                     .MapAssemblyOf<PersonaRegistradaEvent>(queueName)
@@ -52,9 +54,9 @@ namespace Personas.API
                 );
 
             services.AddTransient<IEventDispatcher, RebusEventDispatcher>();
-            /*services.AutoRegisterHandlersFromAssemblyOf<PersonasDenormalizer>();
+            //services.AutoRegisterHandlersFromAssemblyOf<PersonasDenormalizer>();
 
-            var bus = services.BuildServiceProvider().GetRequiredService<IBus>();
+            /*var bus = services.BuildServiceProvider().GetRequiredService<IBus>();
             bus.Subscribe<PersonaRegistradaEvent>();*/
         }
 
@@ -73,6 +75,13 @@ namespace Personas.API
 
             app.UseHttpsRedirection();
             app.UseMvc();
+        }
+    }
+    public class LocalBus : MementoFX.Messaging.IEventDispatcher
+    {
+        public void Dispatch<T>(T @event) where T : DomainEvent
+        {
+            
         }
     }
 }

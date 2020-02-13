@@ -12773,7 +12773,8 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "Personas.CommandStack >= 1.0.0",
       "Rebus.RabbitMq >= 5.2.0",
-      "Rebus.ServiceProvider >= 4.0.2"
+      "Rebus.ServiceProvider >= 4.0.2",
+      "SharedElements >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12811,6 +12812,9 @@
             },
             "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\Personas.CommandStack.csproj": {
               "projectPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\Personas\\Personas.CommandStack.csproj"
+            },
+            "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\SharedElements\\SharedElements.csproj": {
+              "projectPath": "C:\\Users\\ardiazg\\Desktop\\Ricardo\\SEJE\\SEJE-DEV\\API-Registro-Personas-AR\\SharedElements\\SharedElements.csproj"
             }
           }
         }

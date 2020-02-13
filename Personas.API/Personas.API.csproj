@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MementoFX.Persistence.SqlServer\MementoFX.Persistence.SqlServer.csproj" />
     <ProjectReference Include="..\Personas\Personas.CommandStack.csproj" />
+    <ProjectReference Include="..\SharedElements\SharedElements.csproj" />
   </ItemGroup>
 
 </Project>
